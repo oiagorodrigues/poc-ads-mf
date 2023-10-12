@@ -1,5 +1,12 @@
 import AdsImage from '../assets/ads.png'
 
-export const AdsContainer = () => {
-  return <img src={AdsImage} alt='ads image' />
+const AdsContainer = () => {
+  return (
+    <div>
+      <h1>Remote App</h1>
+      <img src={AdsImage} alt='ads image' />
+    </div>
+  )
 }
+
+export default AdsContainer
